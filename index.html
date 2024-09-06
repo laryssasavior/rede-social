@@ -1,0 +1,68 @@
+parte:
+
+html
+Copiar código
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Meu Perfil</title>
+    <!-- A tag <meta charset="utf-8"> define a codificação de caracteres como UTF-8, que suporta quase todos os caracteres, 
+         garantindo que textos com acentuação ou caracteres especiais sejam exibidos corretamente. -->
+</head>
+<body align="center">
+    <!-- Atributo align="center" centraliza o conteúdo da página. -->
+
+    <h1><u>Meu Perfil</u></h1>
+    <!-- O título principal (h1) da página está sublinhado com a tag <u>. -->
+
+    <h3><em>Quem sou?</em></h3> 
+    <!-- Título de subtópico com a tag <h3> e itálico com a tag <em>. -->
+
+    <img src="img/foto-nerd.jpg" alt="Foto de Perfil" width="15%">
+    <!-- Insere uma imagem com o caminho "img/foto-nerd.jpg". O atributo alt é usado para fornecer um texto alternativo
+         caso a imagem não seja carregada. A largura da imagem é definida como 15% da tela. -->
+
+    <p><strong>Meu nome é Laryssa,</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <strong>nostrud exercitation</strong> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <em>cillum dolore eu fugiat nulla</em> pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!-- Um parágrafo (<p>) contendo um texto de exemplo "Lorem ipsum". As tags <strong> e <em> são usadas para 
+         destacar partes do texto em negrito e itálico, respectivamente. -->
+
+    <h3>Como falar comigo?</h3>
+    <!-- Subtítulo "Como falar comigo?" no estilo de título <h3>. -->
+
+    <ul style="list-style-type: none;">
+        <!-- Lista não ordenada (<ul>), com itens de lista contendo links para redes sociais. -->
+        <li><a href="https://www.github.com/laryssasavior" target="_blank">GitHub</a></li>
+        <!-- O link dentro da tag <li> leva ao GitHub. O atributo target="_blank" faz com que o link seja aberto em 
+             uma nova aba do navegador. -->
+        <li><a href="https://youtube.com/laryssasavior" target="_blank">YouTube</a></li>
+        <!-- Link para o YouTube com target="_blank" para abrir em nova aba. -->
+        <li><a href="https://exemplo.com/user" target="_blank">WhatsApp</a></li>
+        <!-- Link fictício para o WhatsApp. -->
+        <li><a href="https://linkedin.com/laryssamoraesp" target="_blank">LinkedIn</a></li>
+        <!-- Link para o LinkedIn com abertura em nova aba. -->
+    </ul>
+
+    <h3>Entre em contato</h3>
+    <table style="background-color: #ADD8E6; border: 1px solid black; padding: 10px; width: 50%; margin: 0 auto;">
+        <tr>
+            <td>
+                <form>
+                    <!-- Formulário de contato -->
+                    <label for="name">Nome:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+         
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Mensagem:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+                    <input type="submit" value="Enviar">
+        
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
